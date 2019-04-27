@@ -14,3 +14,15 @@ __1.8__
 
 [JVM源码分析之synchronized实现](<https://www.jianshu.com/p/c5058b6fe8e5>)
 
+[JVM思维导图](https://blog.csdn.net/Q_Sea__/article/details/83268857)
+
+
+
+##JVM参数
+
+-XX:NativeMemoryTracking==[off|summary|detail]
+
+```
+jcmd 23448 VM.native_memory summary --可以窥探一些我们平常不怎么关注的内存占用部分
+```
+
